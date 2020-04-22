@@ -5,15 +5,14 @@
 # Find out more about building applications with Shiny here:
 #
 #    http://shiny.rstudio.com/
-#
-library(PerformanceAnalytics)
-library(shiny)
-library(jtools)
-#library(effects)
-library(ggplot2)
-library(grid)
-library(ggeffects)
-library(dplyr)
+# upload the packages
+if (!require('PerformanceAnalytics')) install.packages('PerformanceAnalytics'); library('PerformanceAnalytics')
+if (!require('shiny')) install.packages('shiny'); library('shiny')
+if (!require('jtools')) install.packages('jtools'); library('jtools')
+if (!require('ggplot2')) install.packages('ggplot2'); library('ggplot2')
+if (!require('grid')) install.packages('grid'); library('grid')
+if (!require('ggeffects')) install.packages('ggeffects'); library('ggeffects')
+if (!require('dplyr')) install.packages('dplyr'); library('dplyr')
 
 # get the dataset here 
 data(mtcars)
