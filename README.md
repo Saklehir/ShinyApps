@@ -1,6 +1,6 @@
 # Saklehir's ShinyApps
 
-*A collection of apps for automatizing time-consuming statistical analyses *
+*A collection of apps for automatizing time-consuming statistical analyses.*
 
 This is a collection of interactive tools, built with shiny. 
 
@@ -19,6 +19,7 @@ You can run the apps locally by downloading them temporarily from Github (i.e., 
 When running the apps with this procedure, several packages will be installed on your device as they are required for the app to run. 
 
 When these preconditions are met, you can run an app with a single line of code. The specific app is specified in the `subdir` parameter. Example:
+    
     runGitHub("ShinyApps", user="Saklehir", subdir="Simple Slope Analysis Made Easy")
 
 
