@@ -7,7 +7,7 @@ This is a collection of interactive tools, built with shiny.
 
 ---
 
-*You can run the apps by either downloading the app.R file on your devide and by without downloading the app.R file.*
+*You can run the apps by either downloading the app.R file on your device and by without downloading the app.R file.*
 
 ## Run on your device with installation ##
 
